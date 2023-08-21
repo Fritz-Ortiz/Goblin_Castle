@@ -15,7 +15,7 @@ def Entering_The_Castle():
         elif decision.lower().replace(" ", "") == "escape":
             decided = True
             print("You decide this line of work is not for you, you kinda have to go to the bathroom too. Someone will take care of this.... right?")
-            return "Game Over"
+            print("Game Over")
         else:
             print("Invalid command, try again")
 
