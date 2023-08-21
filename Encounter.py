@@ -1,4 +1,5 @@
 from Monsters import *
+from Player import *
 
 ready = input("Are you ready to fight? (Y/N) ")
 
